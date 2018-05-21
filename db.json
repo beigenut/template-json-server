@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "fds",
+      "hashedPassword": "$2a$10$I/lakeqEsyT4sKa3Mp.ZV.nl75UaSKVTt4tWm31TgiOhUJUrbbez2"
+    },
+    {
+      "username": "beige",
+      "hashedPassword": "$2a$10$z3A8FARR/XIi2uRImwM6.e2sUnSkPQIcgEHnCDTuKu/zL8008MEjK",
+      "id": 2
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Hello FDS JSON Server :)",
+      "body": "..."
+    },
+    {
+      "title": "content title",
+      "body": "content content",
+      "userId": 2,
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "userId": 1,
+      "postId": 1,
+      "body": "🍺🎉"
+    },
+    {
+      "body": "Let's go to Han liver!",
+      "postId": "1",
+      "userId": 2,
+      "id": 2
+    }
+  ]
+}
